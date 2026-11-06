@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project implements a basic AND gate in hardware. It takes two input signals (A and B) and produces a HIGH output only when both inputs are HIGH.
 
 ## How to test
 
-Explain how to use your project
+Use the DIP switches to toggle inputs A (IN0) and B (IN1) between HIGH and LOW. The output LED will turn on when both switches are in the ON position, demonstrating the AND logic truth table.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No external hardware is strictly required, but an LED connected to the output pin is used to visually verify the logic state.
